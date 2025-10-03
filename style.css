@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwite+CA:wght@100..400&display=swap');
+
+body {
+    background-color: rgb(168, 11, 153);
+    font-family: 'Playwrite CA', cursive;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(255, 192, 203);
+    border: 8px solid #000;
+}
+
+header img {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border: 8px solid #000;
+    border-radius: 25px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li {
+    background-color: rgb(240, 25, 233);
+    padding: 15px 30px;
+    border: 8px solid #000;
+    border-radius: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+    width: 95%;
+    padding: 20px;
+    background-color: rgb(244, 87, 199);
+    border: 10px solid;
+    border-radius: 50px;
+}
+
+.Moranguinho_1,
+.Moranguinho_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 10%;
+    height: 100%;
+    background-color: rgb(242, 43, 196);
+    padding: 10px;
+    border: 10px solid;
+    border-radius: 50px;
+}
+
+.Moranguinho_1 img,
+.Moranguinho_3 img {
+    width: 138px;
+    height: 137px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.Moranguinho_2 {
+    width: 950px;
+    height: 502px;
+    background-color: rgb(240, 80, 227);
+    border: 10px solid;
+    border-radius: 268px;
+    overflow: hidden;
+}
+
+.Moranguinho_2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 268px;
+}
+
+.botao-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: rgb(188, 86, 236);
+    color: #fff;
+    border: 3px solid #000;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(216, 4, 163);
+}
